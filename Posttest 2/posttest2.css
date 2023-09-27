@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+     padding: 0;
+     margin: 0;
+     font-family: "inter", sans-serif;
+     box-sizing: border-box;
+}
+
+a {
+     text-decoration: none;
+}
+
+a:hover{
+     font-weight: bold;
+     color: #458483;
+}
+
+a img:hover{
+     transform: scale(1.03);
+     
+}
+
+header img{
+     width: 100%;
+     background-color: #141619;
+}
+section{
+     background-image: linear-gradient(to bottom, #141619 50%, #010101);
+     background-image: l;
+}
+
+nav{
+     display: flex;
+     background-color: #141619;
+     justify-content: space-around;
+     box-sizing: border-box;
+     align-items: center;
+     overflow: hidden;
+}
+
+nav img{
+     width: 20%;
+     background-color: #141619;
+}
+
+.items{
+     display: flex;
+     background-color: #141619;
+}
+
+.items a{
+     padding: 0px 30px;
+     color: aliceblue;
+     font-size: 18px;
+}
+
+.daftar a{
+     color: aliceblue;
+}
+
+.welcome{
+     padding: 60px 60px;
+     font-size: 300%;
+     color: aliceblue;
+     font-weight: 500;
+}
+
+.weAre p{
+     color: aliceblue;
+     padding: 20px 60px 20px 60px;
+     font-size: 20px;
+}
+
+.why{
+     background-image: linear-gradient(to top,#458483,#1f2e30 );
+     padding: 60px;
+}
+
+.why img{
+     width: 100%;
+}
+
+.why .atas{
+     font-size: 40px;
+     text-align: center;
+     padding: 20px;
+     color: aliceblue;
+     padding: 30px 60px;
+}
+.why .bawah{
+     color: aliceblue;
+     padding: 0px 60px;
+}
+
+.product{
+     color: aliceblue;
+}
+
+.product .atas{
+     font-size: 50px;
+     text-align: center;
+     padding: 20px;
+     font-weight: 600;
+}
+.product .bawah{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+
+.product img{
+     width: 400px;
+}
+
+footer{
+     background-color: #141619;
+     display: flex;
+     flex-direction: column;
+}
+
+footer .logo img{
+     width: 40%;
+}
+
+footer .sosmed{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+footer .sosmed img{
+     width: 80px;
+     padding: 10px 0px;
+}
+
+footer p{
+     color: aliceblue;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+footer .contactus .atas{
+     font-size: 30px;
+     padding: 10px;
+}
+
+footer .contactus .bawah{
+     font-size: 15px;
+     padding: 10px;
+}
+
+footer .copyright{
+     padding: 10px;
+     
+}
+
+.foto img{
+     width: 300px;
+     padding-right: 60px;
+}
+
+.about{
+     padding: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.nama{
+     color: aliceblue;
+     font-size: 40px;
+     padding: 20px 0px;
+}
+.keterangan{
+     color:aliceblue
+}
+
+@media screen and (max-width: 500px){
+     nav{
+          text-align: left;
+          align-items: left;
+          display: block;
+          flex-direction: column;
+          padding: 0px 0px 20px;
+     }
+     nav img{
+          width: 0%;
+     }
+     .items{
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+     }
+     .items a{
+          padding: 4px 60px;
+     }
+     nav .daftar{
+          padding: 4px 60px;
+     }
+     .welcome{
+          font-size: 200%;
+          padding: 20px 60px
+     }
+     .foto img{
+          width: 80%;
+     }
+     
+     .about{
+          padding: 20px 60px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+     }
+     
+     .nama{
+          color: aliceblue;
+          font-size: 20px;
+          padding: 5px 0px;
+     }
+     .keterangan{
+          color:aliceblue
+     }
+}
